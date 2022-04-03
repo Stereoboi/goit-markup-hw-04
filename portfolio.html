@@ -27,8 +27,22 @@
                     </ul>
                 </nav>
                 <ul class="contacts list">
-                    <li class="item"><a href="mailto:info@devstudio.com" class="contact-header">info@devstudio.com</a></li>
-                    <li class="item"><a href="tel:+380961111111" class="contact-header">+38 096 111 11 11</a></li>
+                    <li class="item ">
+                        <a href="mailto:info@devstudio.com" class="contact-header">
+                            <svg class="contact-icon" width="16" height="12">
+                                <use href="./img/sprite.svg#icon-envelope"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="tel:+380961111111" class="contact-header">
+                            <svg class="contact-icon" width="10" height="16">
+                                <use href="./img/sprite.svg#icon-smartphone"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
+                    </li>
                 </ul>
             </div>
         </header>
@@ -47,7 +61,7 @@
                 
                 <ul class="card-list list">
                     <li class="item">
-                        <a href="#">
+                        <a href="#" class="examples">
                             <img src="./img/portfolio/card1.jpg" alt="Технокряк" width="370">
                             <div class="cards-info">
                                 <h2 class="card-title">Технокряк</h2>
@@ -65,7 +79,7 @@
                         </a>       
                     </li>
                     <li class="item">
-                        <a href="#">
+                        <a href="#" class="examples">
                             <img src="./img/portfolio/card3.jpg" alt="Ресторан Seafood" width="370">
                             <div class="cards-info">
                                 <h2 class="card-title">Ресторан Seafood</h2>
@@ -75,7 +89,7 @@
                         </a>
                     </li>
                     <li class="item">
-                        <a href="#">
+                        <a href="#" class="examples">
                             <img src="./img/portfolio/card4.jpg" alt="Проект Prime" width="370">
                             <div class="cards-info">
                                 <h2 class="card-title">Проект Prime</h2>
@@ -85,7 +99,7 @@
                         </a>
                     </li>
                     <li class="item">
-                        <a href="#">
+                        <a href="#" class="examples">
                             <img src="./img/portfolio/card5.jpg" alt="Проект Boxes" width="370">
                             <div class="cards-info">
                                 <h2 class="card-title">Проект Boxes</h2>
@@ -95,7 +109,7 @@
                         </a>
                     </li>
                     <li class="item">
-                        <a href="#">
+                        <a href="#" class="examples">
                             <img src="./img/portfolio/card6.jpg" alt="Inspiration has no Borders" width="370">
                             <div class="cards-info">
                                 <h2 class="card-title">Inspiration has no Borders</h2>
@@ -104,8 +118,8 @@
                             
                         </a>
                     </li>
-                    <li class="item">
-                        <a href="#">
+                    <li class="item" >
+                        <a href="#" class="examples">
                             <img src="./img/portfolio/card7.jpg" alt="Издание Limited Edition" width="370">
                             <div class="cards-info">
                                 <h2 class="card-title">Издание Limited Edition</h2>
@@ -114,8 +128,8 @@
                             
                         </a>
                     </li>
-                    <li class="item">
-                        <a href="#">
+                    <li class="item" >
+                        <a href="#" class="examples">
                             <img src="./img/portfolio/card8.jpg" alt="Проект LAB" width="370" class="ex-photo">
                             <div class="cards-info">
                                 <h2 class="card-title">Проект LAB</h2>
@@ -124,8 +138,8 @@
                             
                         </a>
                     </li>
-                    <li class="item">
-                        <a href="#">
+                    <li class="item" >
+                        <a href="#" class="examples">
                             <img src="./img/portfolio/card9.jpg" alt="Growing Business" width="370">
                             <div class="cards-info">
                                 <h2 class="card-title">Growing Business</h2>
@@ -141,20 +155,62 @@
     </main>
     <!-- footer -->
     <footer>
-        <div class="container">
-            <a href="./index.html" class="logo footer-logo"><span class="logo-color">Web</span>Studio</a>
-            <address>
-                <ul class="footer-info list">
-                    <li class="footer-adress">
-                        <p>г. Киев, пр-т Леси Украинки, 26</p>
+        <div class="container footer-media">
+            <div class="address">
+                <a href="./index.html" class="logo footer-logo"><span class="logo-color">Web</span>Studio</a>
+                <address>
+                    <ul class="footer-info list">
+                        <li class="footer-adress">
+                            <p>г. Киев, пр-т Леси Украинки, 26</p>
+                        </li>
+                        <li class="mail"><a href="mailto:info@devstudio.com" class="contact-footer">info@devstudio.com</a>
+                        </li>
+                        <li class="phone"><a href="tel:+380961111111" class="contact-footer">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+    
+            <div class="social-footer">
+                <p class="join">присоединяйтесь</p>
+                <ul class="social-list social-footer">
+                    <li class="list">
+                        <a href="https://www.instagram.com/" class="workers-link focus" target="_blank"
+                            rel="noopener noreferrer nofolow">
+                            <svg class="social" width="20" height="20">
+                                <use href="./img/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="mail"><a href="mailto:info@devstudio.com" class="contact-footer">info@devstudio.com</a></li>
-                    <li class="phone"><a href="tel:+380961111111" class="contact-footer">+38 096 111 11 11</a></li>
+                    <li class="list">
+                        <a href="https://twitter.com/" class="workers-link focus" target="_blank"
+                            rel="noopener noreferrer nofolow">
+                            <svg class="social" width="20" height="20">
+                                <use href="./img/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="https://www.facebook.com/" class="workers-link focus" target="_blank"
+                            rel="noopener noreferrer nofolow">
+                            <svg class="social" width="20" height="20">
+                                <use href="./img/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="https://www.linkedin.com/" class="workers-link focus" target="_blank"
+                            rel="noopener noreferrer nofolow">
+                            <svg class="social" width="20" height="20">
+                                <use href="./img/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
+            </div>
         </div>
     
     </footer>
+
 
 </body>
 
